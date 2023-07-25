@@ -1,18 +1,26 @@
 {
-  "type": "module",
-  "dependencies": {
-    "inquirer": "^9.2.8",
-    "qr-image": "^3.2.0"
+  
+  "name": "qr-image",
+  "version": "3.2.0",
+  "description": "QR Code generator (png, svg, pdf, eps)",
+  "homepage": "https://github.com/alexeyten/qr-image",
+  "keywords": [ "qrcode", "qr code", "qr", "png", "svg", "image" ],
+  "author": {
+    "name": "Alexey Ten",
+    "url": "http://git.io/alexeyten"
   },
-  "name": "2.4-qr-code-project",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexeyten/qr-image.git"
+  },
+  "bugs": "https://github.com/alexeyten/qr-image/issues",
+  "main": "./lib/qr.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./tests/test.js"
   },
-  "keywords": [],
-  "author": "Somesh",
-  "license": "ISC",
-  "description": ""
+  "files": [
+    "lib",
+    "LICENSE"
+  ]
 }
